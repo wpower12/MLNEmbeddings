@@ -14,15 +14,18 @@ DATA_DIR = "data/thresholded_data"
 THRESHOLDS = [0.001, 0.002, 0.005, 0.01, 0.05, 0.1, 0.5, 1.0]
 START_DATE = '2022-01-01'
 END_DATE = '2022-01-07'
-COL_NAME = 'dupe_ratio_02'  # TODO - Check this.
+COL_NAME = 'dupe_ratio_05'  # TODO - Check this.
 
 # Format parameters: DATE_START, DATE_END, DUPE_RATIO_COL_NAME, THRESHOLD
 GET_TWEETS = """
-	SELECT userid, text FROM tweet
+	SELECT userid, text 
+	FROM tweet
+	JOIN user on user.id=tweet.userid
 	WHERE 
 		created_at BETWEEN '{}' AND '{}'
 	AND
-		{} > {};
+		user.{} <= {}
+	LIMIT 100;
 """
 
 # This should do it. I think there might be an issue with saving out the csv. Might have to change to a
