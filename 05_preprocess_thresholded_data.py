@@ -22,6 +22,8 @@ stopwords_eng = stopwords.words("english")
 stopwords_eng += string.punctuation
 stopwords_eng += ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
+print(stopwords_eng)
+
 tkz = TweetTokenizer(strip_handles=True, reduce_len=True)
 ltz = WordNetLemmatizer()
 
