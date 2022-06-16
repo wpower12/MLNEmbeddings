@@ -1,6 +1,6 @@
 import pandas as pd
 from gensim.models.ldamodel import LdaModel
-from mlnhelper import util
+from mlnhelper import utils
 
 DATA_FN_STUB = "2022_01_01_to_07_{}_02.csv"
 OUTPUT_FN = "2022_01_01_to_07_TOPICS_03.csv"

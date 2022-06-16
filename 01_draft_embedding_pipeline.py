@@ -89,7 +89,7 @@ pair_generator = GraphSAGELinkGenerator(
 # This generator will provide the actual pairs of walk-co-occuring nodes
 train_gen = pair_generator.flow(unsupervised_samples)
 
-## GraphSAGE Model building
+# GraphSAGE Model building
 # GraphSAGE layer
 layer_sage = GraphSAGE(
     layer_sizes=GRAPHSAGE_LAYER_SIZES,
@@ -148,6 +148,7 @@ trans = TSNE(
 	n_iter=1000,   # Just for testing TODO - CHANGE FOR REAL RUNS
 	# angle=0.05, # JUST FOR TESTING - TODO - CHANGE TO 0.5 for real runs
 	verbose=1)
+
 emb_transformed = pd.DataFrame(trans.fit_transform(X))
 emb_transformed['label'] = node_labels
 

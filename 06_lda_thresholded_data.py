@@ -1,6 +1,6 @@
 import pandas as pd
 from gensim.models.ldamodel import LdaModel
-from mlnhelper import util
+from mlnhelper import utils
 
 NUM_TOPICS = 50
 ID = "v00"
