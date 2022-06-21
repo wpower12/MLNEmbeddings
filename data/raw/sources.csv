@@ -1,0 +1,54 @@
+Source,ASMBR,URL
+ABC News (Online),LL,http://abcnews.go.com/
+AlterNet,L,http://www.alternet.org/
+Associated Press,C,https://apnews.com/
+Axios,C,https://www.axios.com/
+BBC News,C,http://www.bbc.com/
+Bloomberg,LL,http://www.bloomberg.com/
+Breitbart News,R,http://www.breitbart.com/
+BuzzFeed News,L,http://buzzfeednews.com/
+CBS News (Online),LL,http://www.cbsnews.com/
+Chrisitan Science Monitor,C,http://www.csmonitor.com/
+CNN (Online News),L,http://www.cnn.com/
+CNN (Opinion),L,https://www.cnn.com/opinions
+Daily Beast,L,http://www.thedailybeast.com/
+Daily Mail,R,http://dailymail.co.uk/
+Democaracy Now,L,http://www.democracynow.org/
+Forbes,C,http://www.forbes.com/
+Fox News (Online News),R,http://www.foxnews.com/
+Fox News (Opinion),R,http://www.foxnews.com/opinion.html
+HuffPost,L,https://www.huffpost.com/
+Mother Jones,L,http://www.motherjones.com/
+MSNBC,L,http://www.msnbc.com/
+National Review,R,http://www.nationalreview.com/
+NBC News (Online),LL,http://www.nbcnews.com/
+New York Post (News),LR,http://www.nypost.com/
+New York Times (News),LL,http://www.nytimes.com/
+New York Times (Opinion),L,https://www.nytimes.com/section/opinion
+Newsweek,C,https://www.newsweek.com/
+NPR (Online News),LL,http://www.npr.org/
+NPR (Opinion),LL,https://www.npr.org/sections/opinion/
+Politico,LL,http://www.politico.com/
+Reason,LR,http://reason.com/
+Reuters,C,http://www.reuters.com/
+Slate,L,https://slate.com/
+The American Spectator,R,http://spectator.org/
+The Atlantic,LL,http://www.theatlantic.com/
+The Blaze,R,http://www.theblaze.com/
+The Daily Caller,R,http://dailycaller.com/
+The Daily Wire,R,http://www.dailywire.com/
+The Economist,LL,http://www.economist.com/
+The Epoch Times,LR,https://www.theepochtimes.com/
+The Federalist,R,http://thefederalist.com/
+The Guardian,LL,https://www.theguardian.com/us
+The Hill,C,https://www.thehill.com/
+The Intercept,L,https://theintercept.com/
+The New Yorker,L,https://www.newyorker.com/
+Time Magazine,LL,http://www.time.com/time/
+USA TODAY,LL,https://www.usatoday.com/
+Vox,L,http://www.vox.com/
+Wall Street Journal (News),C,http://online.wsj.com/
+Wall Street Journal (Opinion),LR,http://online.wsj.com/public/page/news-opinion-commentary.html
+Washington Examiner,LR,http://washingtonexaminer.com/
+Washington Post,LL,https://www.washingtonpost.com/
+Washington Times,LR,http://www.washingtontimes.com/
